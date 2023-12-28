@@ -1,0 +1,17 @@
+{
+  "name": "mern-backend",
+  "version": "1.0.0",
+  "description": "learning backend with chai our code youtube channel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "backend",
+    "nodejs",
+    "express",
+    "mongodb"
+  ],
+  "author": "nitishpandit",
+  "license": "ISC"
+}
