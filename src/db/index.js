@@ -1,4 +1,4 @@
-import mongoose, { mongo } from "mongoose";
+import mongoose from "mongoose";
 import { DB_NAME } from "../constants.js";
 
 export const connnectDB = async ()=>{
@@ -8,7 +8,7 @@ export const connnectDB = async ()=>{
       console.log(`\n MongoDB connected!! DB HOST: ${connectionInstance}`);
 
     }catch(error){
-      console.log("MONGODB couldn't connect!!");
+     console.log("MONGODB couldn't connect!!");
      process.exit(1);
     }
 }
